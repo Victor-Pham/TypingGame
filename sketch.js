@@ -90,7 +90,7 @@ function draw() {
         fill(255);
     
     text(words[index], windowWidth/2, windowHeight/3);
-    text(input, windowHeight - 400, windowWidth/2);
+    text(input, windowWidth/2, windowHeight/2 + windowHeight/4);
     if(index < words.length - 1){
     for(var i = 0; i < index; i++){
         fill(255*random(), 255* random(), 255*random());
