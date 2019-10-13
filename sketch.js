@@ -93,7 +93,7 @@ function draw() {
     text(input, windowWidth/2, windowHeight/2 + windowHeight/4);
     if(index < words.length - 1){
     for(var i = 0; i < index; i++){
-        fill(255*random(), 255* random(), 255*random());
+        fill(255*random(), 255* random(), 255*random(), 255*random());
         ellipse(windowWidth * random(), windowHeight * random(), i * 100 + 3, i * 100 + 3);
     }
     if(index == 0 && letter >= 1 || index >= 1){
